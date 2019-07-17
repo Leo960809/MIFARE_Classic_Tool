@@ -592,11 +592,10 @@ public class MCReader {
                 && firstSector <= lastSector) {
             mFirstSector = firstSector;
             mLastSector = lastSector;
-
-            // Initialization
             mKeyMapStatus = lastSector + 1;
             return true;
         }
+
         return false;
     }
 
@@ -659,13 +658,6 @@ public class MCReader {
     }
 
     /**
-     * Return the size of the MIFARE Classic tag in bits (eg. 1024)
-     */
-    public int getSize() {
-        return mMFC.getSize();
-    }
-
-    /**
      * Return the sector count of the MIFARE Classic tag
      */
     public int getSectorCount() {
@@ -677,20 +669,6 @@ public class MCReader {
 
         }
         return mMFC.getSectorCount();
-    }
-
-    /**
-     * Return the block count of the MIFARE Classic tag
-     */
-    public int getBlockCount() {
-        return mMFC.getBlockCount();
-    }
-
-    /**
-     * Return the block count in a specific sector
-     */
-    public int getBlockCountInSector(int sectorIndex) {
-        return mMFC.getBlockCountInSector(sectorIndex);
     }
 
     /**
