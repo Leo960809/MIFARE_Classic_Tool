@@ -1,0 +1,230 @@
+[
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action.xml.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_hex_to_ascii.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\layout\\activity_hex_to_ascii.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_read_tag.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\layout\\activity_read_tag.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_value_blocks_to_int.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\layout\\activity_value_blocks_to_int.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\menu_dump_editor_functions.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\menu\\dump_editor_functions.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_diff_tool.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\layout\\activity_diff_tool.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\menu_general_options.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\menu\\general_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_file_chooser.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\layout\\activity_file_chooser.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_preferences.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\layout\\activity_preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_provider_paths.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\xml\\file_provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dump_editor.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\layout\\activity_dump_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\xml_layout_border.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\xml\\layout_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_access_condition_tool.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\layout\\activity_access_condition_tool.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\menu_tools.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\menu\\tools.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\menu_key_editor_functions.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\menu\\key_editor_functions.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_menu.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\layout\\activity_main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_write_tag.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\layout\\activity_write_tag.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_diff_block.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\layout\\list_item_diff_block.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\xml_nfc_tech_filter.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\xml\\nfc_tech_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_write_sectors.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\layout\\dialog_write_sectors.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_access_condition_decoder.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\layout\\activity_access_condition_decoder.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_small_text.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\layout\\list_item_small_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_create_key_map.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\layout\\activity_create_key_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\menu_file_chooser_functions.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\menu\\file_chooser_functions.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_key_editor.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\layout\\activity_key_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tag_info_tool.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\layout\\activity_tag_info_tool.xml"
+    },
+    {
+        "merged": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_value_block_tool.xml.flat",
+        "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\layout\\activity_value_block_tool.xml"
+    }
+]

@@ -1,0 +1,42 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,7,8,9,10,11,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,420,536,662,788,916,1088",
+                        "endLines": "2,3,4,5,7,8,9,10,13,18",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,531,657,783,911,1083,1421"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "66",
+                        "endOffsets": "118"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "354",
+                        "endColumns": "65",
+                        "endOffsets": "415"
+                    }
+                }
+            ]
+        }
+    ]
+}

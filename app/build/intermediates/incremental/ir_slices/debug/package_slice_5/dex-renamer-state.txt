@@ -1,0 +1,4 @@
+#Wed Jul 17 14:37:30 EDT 2019
+base.0=C\:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex

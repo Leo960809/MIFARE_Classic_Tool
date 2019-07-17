@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.syss.MifareClassicTool"
+    android:versionCode="48"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <application
+        android:name="de.syss.MifareClassicTool.Common"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+
+        <!-- Main Activity -->
+        <activity
+            android:name="de.syss.MifareClassicTool.Activities.MainMenu"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_main"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+            android:name="de.syss.MifareClassicTool.MainMenuAlias"
+            android:label="@string/title_activity_main"
+            android:launchMode="singleTop"
+            android:targetActivity="de.syss.MifareClassicTool.Activities.MainMenu" >
+
+            <!-- NFC Tech Filter -->
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/nfc_tech_filter" />
+        </activity-alias>
+
+        <!-- Content Providers -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="de.syss.MifareClassicTool.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+
+        <!-- Other Activities -->
+        <activity
+            android:name="de.syss.MifareClassicTool.Activities.KeyMapCreator"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_create_key_map" >
+        </activity>
+        <activity
+            android:name="de.syss.MifareClassicTool.Activities.DumpEditor"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_dump_editor" >
+        </activity>
+        <activity
+            android:name="de.syss.MifareClassicTool.Activities.FileChooser"
+            android:label="@string/title_activity_file_chooser" >
+        </activity>
+        <activity
+            android:name="de.syss.MifareClassicTool.Activities.AccessConditionDecoder"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_access_conditions" >
+        </activity>
+        <activity
+            android:name="de.syss.MifareClassicTool.Activities.ValueBlocksToInt"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_value_blocks" >
+        </activity>
+        <activity
+            android:name="de.syss.MifareClassicTool.Activities.WriteTag"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_write_tag" >
+        </activity>
+        <activity
+            android:name="de.syss.MifareClassicTool.Activities.ReadTag"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_read_tag" >
+        </activity>
+        <activity
+            android:name="de.syss.MifareClassicTool.Activities.KeyEditor"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_key_editor" >
+        </activity>
+        <activity
+            android:name="de.syss.MifareClassicTool.Activities.HexToAscii"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_hex_to_ascii" >
+        </activity>
+        <activity
+            android:name="de.syss.MifareClassicTool.Activities.TagInfoTool"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_tag_info" >
+        </activity>
+        <activity
+            android:name="de.syss.MifareClassicTool.Activities.ValueBlockTool"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_value_block_tool" >
+        </activity>
+        <activity
+            android:name="de.syss.MifareClassicTool.Activities.AccessConditionTool"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_access_condition_tool" >
+        </activity>
+        <activity
+            android:name="de.syss.MifareClassicTool.Activities.Preferences"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_preferences" >
+        </activity>
+        <activity
+            android:name="de.syss.MifareClassicTool.Activities.DiffTool"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_diff_tool" >
+        </activity>
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="de.syss.MifareClassicTool.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-be\\values-be.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\JiangJ\\.gradle\\caches\\transforms-2\\files-2.1\\7c6a1ffe365ec0463e1815bfb72a3314\\res\\values-be\\values-be.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

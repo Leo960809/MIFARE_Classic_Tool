@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Mon Jul 15 11:37:29 EDT 2019
+1.base=C\:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\merged_assets\\debug\\out
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=key-files/extended-std.keys
+0.set=ASSET
+0.base=C\:\\Users\\JiangJ\\Desktop\\NfcTest\\app\\build\\intermediates\\merged_assets\\debug\\out
+1.path=key-files/std.keys
