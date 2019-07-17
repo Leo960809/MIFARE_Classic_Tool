@@ -258,7 +258,7 @@ public class MCReader {
         boolean error = false;
 
         if (mKeysWithOrder != null && mLastSector != -1) {
-            if (mKeyMapStatus == mLastSector+1) {
+            if (mKeyMapStatus == mLastSector + 1) {
                 mKeyMapStatus = mFirstSector;
                 mKeyMap = new SparseArray<>();
             }
@@ -278,7 +278,7 @@ public class MCReader {
             for (int i = 0; i < mKeysWithOrder.size(); i++) {
                 byte[] key = mKeysWithOrder.get(i);
 
-                for (int j = 0; j < retryAuthCount+1;) {
+                for (int j = 0; j < retryAuthCount + 1;) {
                     try {
                         if (!foundKeys[0]) {
                             // Authenticate with Key A
