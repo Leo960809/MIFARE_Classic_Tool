@@ -290,8 +290,7 @@ public class MCReader {
                         }
                         if (!foundKeys[1]) {
                             // Authenticate with Key B
-                            auth = mMFC.authenticateSectorWithKeyB(
-                                    mKeyMapStatus, key);
+                            auth = mMFC.authenticateSectorWithKeyB(mKeyMapStatus, key);
                             if (auth) {
                                 keys[1] = key;
                                 foundKeys[1] = true;
@@ -304,6 +303,7 @@ public class MCReader {
                     if((foundKeys[0] && foundKeys[1]) || !retryAuth) {
                         break;
                     }
+
                     j++;
                 }
 
@@ -346,8 +346,7 @@ public class MCReader {
     }
 
     /**
-     * Merge the result of two {@link #readSector(int, byte[], boolean)}
-     * calls on the same sector
+     * Merge the result of {@link #readSector(int, byte[], boolean)}
      */
     public String[] mergeSectorData(String[] firstResult, String[] secondResult) {
         String[] ret = null;
