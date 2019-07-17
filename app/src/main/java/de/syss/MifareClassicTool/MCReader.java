@@ -108,15 +108,6 @@ public class MCReader {
     }
 
     /**
-     * Read as much as possible from the tag
-     */
-    public SparseArray<String[]> readAsMuchAsPossible() {
-        mKeyMapStatus = getSectorCount();
-        while (buildNextKeyMapPart() < getSectorCount() - 1);
-        return readAsMuchAsPossible(mKeyMap);
-    }
-
-    /**
      * Read as much as possible from a single sector with the given key
      */
     public String[] readSector(int sectorIndex, byte[] key, boolean useAsKeyB)
