@@ -593,7 +593,7 @@ public class MCReader {
      * Authenticate with the given sector of the tag
      */
     private boolean authenticate(int sectorIndex, byte[] key, boolean useAsKeyB) {
-        // Re-uthentication setting
+        // Re-authentication setting
         boolean retryAuth = Common.getPreferences().getBoolean(
                 Preference.UseRetryAuthentication.toString(), false);
         int retryCount = Common.getPreferences().getInt(
@@ -653,11 +653,13 @@ public class MCReader {
     public int getSectorCount() {
         boolean useCustomSectorCount = Common.getPreferences().getBoolean(
                 Preference.UseCustomSectorCount.toString(), false);
+
         if (useCustomSectorCount) {
             return Common.getPreferences().getInt(
                     Preference.CustomSectorCount.toString(), 16);
 
         }
+
         return mMFC.getSectorCount();
     }
 
