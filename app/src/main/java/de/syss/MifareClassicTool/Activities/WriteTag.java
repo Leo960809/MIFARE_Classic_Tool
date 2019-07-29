@@ -58,10 +58,6 @@ public class WriteTag extends BasicActivity {
     private EditText mSectorTextBlock;
     private EditText mBlockTextBlock;
     private EditText mDataText;
-    private EditText mSectorTextVB;
-    private EditText mBlockTextVB;
-    private EditText mNewValueTextVB;
-    private RadioButton mIncreaseVB;
     private EditText mStaticAC;
     private ArrayList<View> mWriteModeLayouts;
     private CheckBox mWriteManufBlock;
@@ -176,14 +172,6 @@ public class WriteTag extends BasicActivity {
                 } else {
                     // Write block
                     writeBlock();
-                }
-                break;
-            case CKM_WRITE_NEW_VALUE:
-                if (resultCode != Activity.RESULT_OK) {
-                    ckmError = resultCode;
-                } else {
-                    // Write block
-                    writeValueBlock();
                 }
                 break;
         }
@@ -1036,49 +1024,5 @@ public class WriteTag extends BasicActivity {
 
         mDumpWithPos.put(sectors - 1, lastSector);
         checkTag();
-    }
-
-    /**
-     * after a key map was created, increment/decrement the value block
-     */
-    private void writeValueBlock() {
-        // Write the new value
-        MCReader reader = Common.checkForTagAndCreateReader(this);
-        if (reader == null) {
-            return;
-        }
-
-        int value = Integer.parseInt(mNewValueTextVB.getText().toString());
-        int sector = Integer.parseInt(mSectorTextVB.getText().toString());
-        int block = Integer.parseInt(mBlockTextVB.getText().toString());
-        byte[][] keys = Common.getKeyMap().get(sector);
-        int result = -1;
-
-        if (keys[1] != null) {
-            result = reader.writeValueBlock(sector, block, value,
-                    mIncreaseVB.isChecked(), keys[1], true);
-        }
-        if (result == -1 && keys[0] != null) {
-            result = reader.writeValueBlock(sector, block, value,
-                    mIncreaseVB.isChecked(), keys[0], false);
-        }
-
-        reader.close();
-
-        // Error handler
-        switch (result) {
-            case 2:
-                Toast.makeText(this, R.string.info_block_not_in_sector,
-                        Toast.LENGTH_LONG).show();
-                return;
-            case -1:
-                Toast.makeText(this, R.string.info_error_writing_value_block,
-                        Toast.LENGTH_LONG).show();
-                return;
-        }
-
-        Toast.makeText(this, R.string.info_write_successful,
-                Toast.LENGTH_LONG).show();
-        finish();
     }
 }
