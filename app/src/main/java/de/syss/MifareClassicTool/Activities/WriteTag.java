@@ -369,8 +369,7 @@ public class WriteTag extends BasicActivity {
     }
 
     /**
-     * Helper function for {@link #onWriteBlock(View)} and {@link #onWriteValue(android.view.View)}
-     * to show the {@link KeyMapCreator}
+     * Helper function for {@link #onWriteBlock(View) to show the {@link KeyMapCreator}
      */
     private void createKeyMapForBlock(int sector, boolean isValueBlock) {
         Intent intent = new Intent(this, KeyMapCreator.class);
