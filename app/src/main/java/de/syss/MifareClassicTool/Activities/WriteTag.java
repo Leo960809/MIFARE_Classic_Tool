@@ -82,10 +82,6 @@ public class WriteTag extends BasicActivity {
         mSectorTextBlock = findViewById(R.id.editTextWriteTagSector);
         mBlockTextBlock = findViewById(R.id.editTextWriteTagBlock);
         mDataText = findViewById(R.id.editTextWriteTagData);
-        mSectorTextVB = findViewById(R.id.editTextWriteTagValueBlockSector);
-        mBlockTextVB = findViewById(R.id.editTextWriteTagValueBlockBlock);
-        mNewValueTextVB = findViewById(R.id.editTextWriteTagValueBlockValue);
-        mIncreaseVB = findViewById(R.id.radioButtonWriteTagWriteValueBlockIncr);
         mStaticAC = findViewById(R.id.editTextWriteTagDumpStaticAC);
         mEnableStaticAC = findViewById(R.id.checkBoxWriteTagDumpStaticAC);
         mWriteManufBlock = findViewById(R.id.checkBoxWriteTagDumpWriteManuf);
@@ -94,7 +90,6 @@ public class WriteTag extends BasicActivity {
         mWriteModeLayouts.add(findViewById(R.id.relativeLayoutWriteTagWriteBlock));
         mWriteModeLayouts.add(findViewById(R.id.linearLayoutWriteTagDump));
         mWriteModeLayouts.add(findViewById(R.id.linearLayoutWriteTagFactoryFormat));
-        mWriteModeLayouts.add(findViewById(R.id.relativeLayoutWriteTagValueBlock));
 
         if (savedInstanceState != null) {
             mWriteManufBlock.setChecked(savedInstanceState.getBoolean(
@@ -1042,35 +1037,6 @@ public class WriteTag extends BasicActivity {
 
         mDumpWithPos.put(sectors - 1, lastSector);
         checkTag();
-    }
-
-    /**
-     * Check the user input, show the {@link KeyMapCreator},
-     * and create a key map with {@link #writeValueBlock()}
-     */
-    public void onWriteValue(View view) {
-        // Check input
-        if (!checkSectorAndBlock(mSectorTextVB, mBlockTextVB)) {
-            return;
-        }
-
-        int sector = Integer.parseInt(mSectorTextVB.getText().toString());
-        int block = Integer.parseInt(mBlockTextVB.getText().toString());
-        if (block == 3 || block == 15 || (sector == 0 && block == 0)) {
-            // Invalid block
-            Toast.makeText(this, R.string.info_not_vb, Toast.LENGTH_LONG).show();
-            return;
-        }
-
-        try {
-            Integer.parseInt(mNewValueTextVB.getText().toString());
-        } catch (Exception e) {
-            // Value too big.
-            Toast.makeText(this, R.string.info_value_too_big, Toast.LENGTH_LONG).show();
-            return;
-        }
-
-        createKeyMapForBlock(sector, true);
     }
 
     /**

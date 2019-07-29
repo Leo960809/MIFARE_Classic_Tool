@@ -177,7 +177,6 @@
     <string name="action_write_mfid">Advanced: Enable writing to
         manufacturer block</string>
     <string name="action_write_tag">Write Tag</string>
-    <string name="action_write_value_block">Write Value Block</string>
     <string name="app_name">MCT (Demo)</string>
     <string name="app_version">App Version</string>
     <string name="dialog_about_mct">
@@ -407,7 +406,6 @@
     <string name="text_chooser_info_text">Choose a file:</string>
     <string name="text_copy">Copy</string>
     <string name="text_data">Data</string>
-    <string name="text_decrement">Decrement</string>
     <string name="text_dump_1">Dump 1 (A):</string>
     <string name="text_dump_2">Dump 2 (B):</string>
     <string name="text_dump_from_editor">Dump from Editor</string>
@@ -416,10 +414,8 @@
     <string name="text_from">From</string>
     <string name="text_generic_info">Generic Info</string>
     <string name="text_identical_data">--------------------------------</string>
-    <string name="text_incr_decr_value_block">Incr./Decr. Value Block</string>
     <string name="text_incr_decr_value_block_info">Increment or decrement
         and than transfer a Value Block.</string>
-    <string name="text_increment">Increment</string>
     <string name="text_invalid_ac_or_sector_dead">Invalid Access Conditions
         or dead sector :(</string>
     <string name="text_key_a">Key A</string>

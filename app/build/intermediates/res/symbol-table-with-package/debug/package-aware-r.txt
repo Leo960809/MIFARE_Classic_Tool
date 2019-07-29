@@ -96,7 +96,6 @@ id buttonWriteSectorsSelectNone
 id buttonWriteTagBlock
 id buttonWriteTagDump
 id buttonWriteTagFactoryFormat
-id buttonWriteTagValueBlock
 id checkBoxPreferencesAutostartIfCardDetected
 id checkBoxPreferencesCopyUID
 id checkBoxPreferencesSaveLastUsedKeyFiles
@@ -118,9 +117,6 @@ id editTextWriteTagBlock
 id editTextWriteTagData
 id editTextWriteTagDumpStaticAC
 id editTextWriteTagSector
-id editTextWriteTagValueBlockBlock
-id editTextWriteTagValueBlockSector
-id editTextWriteTagValueBlockValue
 id forever
 id icon
 id icon_group
@@ -194,13 +190,9 @@ id radioButtonHex
 id radioButtonWriteTagFactoryFormat
 id radioButtonWriteTagWriteBlock
 id radioButtonWriteTagWriteDump
-id radioButtonWriteTagWriteValueBlock
-id radioButtonWriteTagWriteValueBlockDecr
-id radioButtonWriteTagWriteValueBlockIncr
 id radioGroupFileChooser
 id radioGroupUIDFormat
 id radioGroupWriteTagMode
-id radioGroupWriteTagValueBlock
 id relativeLayoutAccessConditionDecoder
 id relativeLayoutAccessConditionTool
 id relativeLayoutCreateKeyMap
@@ -221,7 +213,6 @@ id relativeLayoutTagInfoTool
 id relativeLayoutValueBlockTool
 id relativeLayoutValueBlocksToInt
 id relativeLayoutWriteSectors
-id relativeLayoutWriteTagValueBlock
 id relativeLayoutWriteTagWriteBlock
 id right_icon
 id right_side
@@ -301,13 +292,7 @@ id textViewWriteTagData
 id textViewWriteTagDumpInfo
 id textViewWriteTagHint1
 id textViewWriteTagHint2
-id textViewWriteTagHint3
-id textViewWriteTagHint4
 id textViewWriteTagSector
-id textViewWriteTagValueBlockBlock
-id textViewWriteTagValueBlockInfo
-id textViewWriteTagValueBlockSector
-id textViewWriteTagValueBlockValue
 id textViewWriteTatFactoryFormatInfo
 id time
 id title
@@ -433,7 +418,6 @@ string action_write_dump_clone
 string action_write_full_dump
 string action_write_mfid
 string action_write_tag
-string action_write_value_block
 string app_name
 string app_version
 string dialog_about_mct
@@ -603,7 +587,6 @@ string text_choose_key_file
 string text_chooser_info_text
 string text_copy
 string text_data
-string text_decrement
 string text_dump_1
 string text_dump_2
 string text_dump_from_editor
@@ -611,9 +594,7 @@ string text_factory_format_info
 string text_from
 string text_generic_info
 string text_identical_data
-string text_incr_decr_value_block
 string text_incr_decr_value_block_info
-string text_increment
 string text_invalid_ac_or_sector_dead
 string text_key_a
 string text_key_ab

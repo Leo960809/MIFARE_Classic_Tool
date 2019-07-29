@@ -6,44 +6,38 @@
     density="560dpi"
     format="10"
     plugin-version="3.4.2"
-    timestamp="1563388634449"
+    timestamp="1564424482459"
     token="1735048610909378210"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="4087" />
+        duration="5747" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="101" />
+        duration="1056" />
     <task
         name="verifier"
-        duration="34" />
+        duration="624" />
 
     <artifact
-        location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
         location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
+    <artifact
+        location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
@@ -51,40 +45,40 @@
         location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1563388634449"
+        timestamp="1564424482459"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
@@ -92,14 +86,20 @@
             location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="C:\Users\JiangJ\Desktop\NfcTest\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>
